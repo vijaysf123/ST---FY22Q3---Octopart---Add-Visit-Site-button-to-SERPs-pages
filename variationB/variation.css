@@ -1,0 +1,69 @@
+html body .header+table td+td+td.sku+td a[rel="nofollow"]::after {
+  content: "Visit Site";
+  position: relative;
+  margin-left: -30px;
+  background: rgba(4, 119, 192, 255);
+  color: #fff;
+  padding: 4px;
+  font-weight: 600;
+  text-align: left;
+  right: -50%;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+a.jsx-3355150991 {
+  color: #2e654d;
+  display: block;
+  width: 100%;
+
+}
+
+td.jsx-3355150991 {
+  font-size: 12px;
+  padding: 6px;
+  padding-inline: 0;
+}
+
+th.jsx-1976292197.moq {
+  margin-left: 34px !important;
+  padding-left: 0;
+  text-align: end;
+  width: 9%;
+  position: relative;
+  left: 1%;
+}
+
+.stock.jsx-1976292197 {
+  width: 10%;
+  position: relative;
+  left: -1.8%;
+}
+
+td.jsx-3318793868 {
+  font-size: 13px;
+  padding: 0;
+  text-align: right;
+}
+
+@media (min-width: 767px) and (max-width: 851px) {
+  td.jsx-3318793868 {
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+  }
+
+  html body .header+table td+td+td.sku+td a[rel="nofollow"]::after {
+    right: -53%;
+    margin-left: -25px;
+  }
+
+  th.jsx-1976292197.moq {
+    left: 4%;
+  }
+
+  td.jsx-3355150991 {
+    font-size: 10px;
+  }
+}
